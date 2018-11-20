@@ -15,17 +15,53 @@ nav{
     display: flex;
 }
 
+#navSocialContainer{
+    display: flex;
+    flex-direction: column;    
+    align-self: normal;
+}
+#navigationall{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    color: #00a3e4;
+}
+.navi {
+    margin-top: 2vh;
+}
+
+#navigationall div{
+
+    margin: 2vh 1vh 1vh 20px;
+
+}
+span.span2 {
+    margin-left: 2vh;
+}
+
 .menue{
-    padding:0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
+    font-size: 23px;
+}
+
+.social{
+    margin-right: 2vh;
 }
 
 ul{
     list-style: none;
 }
 
+.dropDown{
+    font-size: 23PX;
+}
+
 .dropDown ul{
     display: none;
     position: absolute;
+    
+    
     
 }
 .dropDown ul li{
@@ -144,6 +180,8 @@ ul{
  #quote p .fa{
      margin-left: 3vw;
  }
+ 
+ 
 
 
  .anim{
